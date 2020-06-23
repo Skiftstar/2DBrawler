@@ -4,5 +4,20 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Menu/LevelBrowser/LocalMapBrowser.unity
+    guid: d530aa02a465c554cbf7649dc62ef1f2
+  - enabled: 1
+    path: Assets/Levels/New Scene.unity
+    guid: ab4e254279af0ca45a58a929424b3973
+  - enabled: 1
+    path: Assets/Scenes/Level One.unity
+    guid: d0b42a6ae0edb444aa6440efb29478cf
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/SpriteTestScene.unity
+    guid: 7196d1ccaa148ea4ba03ccf999ea4659
   m_configObjects: {}
