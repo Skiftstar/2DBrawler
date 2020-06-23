@@ -5,13 +5,18 @@ using UnityEngine;
 
 public class MainMenuController : MonoBehaviour
 {
+    public GameObject canvas;
+    public GameObject LocalMapBrowser;
+    public Transform LocalMapBrowserLocation;
+    private GameObject MapBrowser;
     public void OnClickedSinglePlayer()
     {
         Debug.Log("LocalPlayer");
         DirectoryInfo path = new DirectoryInfo(Application.dataPath + "/Levels");
         Debug.Log((new DirectoryInfo(Application.dataPath + "/Levels")).ToString());
         Debug.Log(GetAllLevels().Count);
-
+        MapBrowser = Instantiate(LocalMapBrowser, LocalMapBrowserLocation.position, LocalMapBrowserLocation.rotation);
+        MapBrowser.transform.SetParent(LocalMapBrowserLocation, false);
     }
     public void OnClickedMultiPlayer()
     {

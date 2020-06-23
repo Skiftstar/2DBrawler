@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SpriteTestScene.unity
     guid: 7196d1ccaa148ea4ba03ccf999ea4659
+  - enabled: 1
+    path: Assets/Levels/New Scene 1.unity
+    guid: bc04dcb377146f24fb3a777c2c0916a1
+  - enabled: 1
+    path: Assets/Levels/New Scene 2.unity
+    guid: a5ab3a7166ad1884caffc0158aea1e8e
   m_configObjects: {}

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 3793041246207214339}
   - component: {fileID: 3793041246207214396}
   m_Layer: 5
-  m_Name: Scroll View
+  m_Name: MapBrowser
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -243,7 +243,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 3793041246359592120}
   m_Direction: 2
   m_Value: 0
-  m_Size: 0.99998593
+  m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -391,7 +391,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000005823446}
+  m_AnchoredPosition: {x: 0, y: -0.000027005768}
   m_SizeDelta: {x: 0, y: 300}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &3793041247215963179
